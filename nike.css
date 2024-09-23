@@ -1,0 +1,134 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+html ,body{ font-family: "Poppins", sans-serif;
+    font-weight: 400;}
+    .main{width: 1300px;
+        height: 100vh;
+        background-color: #d0d4d5;
+    }
+    .nav1 img{height: 80px;
+    width: auto;
+margin-right: 60px;
+font-weight: 700;
+cursor: pointer;
+transition: .3s;
+
+}
+.nav img:hover{transform: scale(1.25,1);}
+
+    .nav{display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 0 50px;
+height: 110px;
+
+}
+.nav1{display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+ cursor: pointer;
+/* text-transform: uppercase; */
+}
+
+.nav1 ul{display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+}
+.nav1 ul li{margin-right: 30px;}
+
+
+#home{transition: .3s;}
+#men{transition: .3s;}
+#women{transition: .3s;}
+#collection{transition: .3s;}
+#contact{transition: .3s;}
+#home:hover{transform: scale(1.25,1);}
+#men:hover{transform: scale(1.25,1);}
+#women:hover{transform: scale(1.25,1);}
+#collection:hover{transform: scale(1.25,1);}
+#contact:hover{transform: scale(1.25,1);}
+
+.nav2 i{margin-right: 40px;
+font-size: 20px;}
+
+.content{height: calc(100%-110px);
+width: 100%;
+position: relative;
+display: flex;
+}
+
+.content-left{display: flex;
+    flex-direction: column;
+    /* margin-top: 60px; */
+    /* background-color: blueviolet; */
+    padding: 40px;
+    width: 300px;
+    margin-left: 95px;
+}
+
+h5{font-weight: 700;
+ }
+ h1{text-transform: uppercase;
+display: flex;
+flex-direction: column;
+ font-weight: bolder;
+text-wrap: balance; }
+p{text-wrap: wrap;
+/* background-color: blue; */
+width: 250px;
+align-items: center;
+display: flex;}
+button{margin-top: 30px;
+background-color:black;
+width: 150px;
+color: white;
+border-radius: 80px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .3s;
+
+cursor: pointer;}
+button:hover{transform: scale(1.12,1);}
+
+.content-right{display:flex;}
+/* background-color: blanchedalmond;} */
+#shoe-pic{width: 200px;
+margin-left: 190px;
+margin-top: 50px;
+border-radius: 10px;}
+
+
+h4{margin-left: 190px;}
+ h4,.category ,.price ,.color{margin-left: 190px;
+background-color:rgb(234, 224, 209);
+width: auto;
+display: flex;
+padding: 3px;
+
+}
+.category, .color{font-size: 12px;}
+
+#shoe-pic2{width: 200px;
+    margin-left: 190px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 10px;}
+    
+    #Air,#men1,#color1,#price1{margin-left: 10px;
+    width: auto;
+background-color: rgb(234, 224, 209);}
+    #shoe-pic3{width: 200px;
+        margin-left: 190px;
+        margin-top: 50px;
+        border-radius: 10px;
+        margin-left: 10px}
+
+
+        /* #second project done */
+
